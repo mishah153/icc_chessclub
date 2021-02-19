@@ -1,0 +1,41 @@
+.examine-right-sidebar {
+    height: 100%;
+    background: #fff;
+}
+
+.examine-right-sidebar-bottom {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+.examine-right-sidebar-bottom .ant-tabs-top-content {
+    display: flex;
+    flex-grow: 1;
+}
+.examine-right-sidebar-bottom .ant-tabs-tabpane {
+    display: flex;
+    flex-direction: column;
+}
+
+.examine-right-sidebar-bottom .ant-tabs-tabpane.ant-tabs-tabpane-inactive {
+    display: none !important;
+}
+
+/* .examine-right-sidebar-bottom .ant-tabs.ant-tabs-card .ant-tabs-card-content > .ant-tabs-tabpane-inactive {
+    display: none !important;
+} */
+.examine-sidebar-game {
+    display: flex;
+    justify-content: center;
+}
+
+
+.board-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #292929;
+    /* padding-top: 5.8rem; */
+    /* padding-left: 5.8rem; */
+}
